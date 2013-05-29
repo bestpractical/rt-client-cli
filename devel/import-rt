@@ -1,0 +1,22 @@
+#!/bin/bash
+SERVER=http://download.bestpractical.com/pub/rt/release/
+FILE=${1:-rt.tar.gz}
+
+if [[ "$FILE" =~ "^http://" ]]; then
+    URL="$FILE"
+else
+    URL="$SERVER$FILE"
+fi
+
+echo "Downloading and extracting $URL..."
+curl -s $URL \
+    | tar xzvpf - --wildcards rt-*/bin/rt.in -O \
+    | perl -pe 's,\@PERL\@.*$,/usr/bin/env perl,;s,\@LOCAL_ETC_PATH\@,/usr/local/etc,g;' > script/rt
+
+if [[ $? == 0 ]]; then
+    echo "Placeholders rewritten."
+    echo
+    echo "Please check the changes using \`git diff\`."
+else
+    echo "An error occurred!"
+fi
