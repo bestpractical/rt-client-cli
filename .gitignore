@@ -1,0 +1,6 @@
+/RT-Client-CLI-*
+/.build
+/_build*
+/Build
+MYMETA.*
+!META.json
