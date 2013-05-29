@@ -1,16 +1,10 @@
 #!/bin/bash
-SERVER=http://download.bestpractical.com/pub/rt/release/
-FILE=${1:-rt.tar.gz}
+VERSION=${1:-stable}
+SOURCE="curl -s https://raw.github.com/bestpractical/rt/$VERSION/bin/rt.in"
 
-if [[ "$FILE" =~ "^http://" ]]; then
-    URL="$FILE"
-else
-    URL="$SERVER$FILE"
-fi
-
-echo "Downloading and extracting $URL..."
-curl -s $URL \
-    | tar xzvpf - --wildcards rt-*/bin/rt.in -O \
+echo "Importing from $VERSION"
+echo "Downloading..."
+curl -s $SOURCE \
     | perl -pe 's,\@PERL\@.*$,/usr/bin/env perl,;s,\@LOCAL_ETC_PATH\@,/usr/local/etc,g;' > script/rt
 
 if [[ $? == 0 ]]; then
