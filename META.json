@@ -23,6 +23,19 @@
          "examples"
       ]
    },
+   "optional_features" : {
+      "httpauth" : {
+         "description" : "HTTP basic authentication support",
+         "prereqs" : {
+            "runtime" : {
+               "requires" : {
+                  "GSSAPI" : "0",
+                  "LWP::Authen::Negotiate" : "0"
+               }
+            }
+         }
+      }
+   },
    "prereqs" : {
       "configure" : {
          "requires" : {
@@ -36,6 +49,16 @@
       },
       "runtime" : {
          "requires" : {
+            "Cwd" : "0",
+            "File::Temp" : "0",
+            "HTTP::Headers" : "0",
+            "HTTP::Request::Common" : "0",
+            "LWP" : "0",
+            "Pod::Usage" : "0",
+            "Term::ReadKey" : "0",
+            "Term::ReadLine" : "0",
+            "Text::ParseWords" : "0",
+            "Time::Local" : "0",
             "perl" : "5.008005"
          }
       },
@@ -58,6 +81,9 @@
          "web" : "https://github.com/bestpractical/rt-client-cli"
       }
    },
-   "version" : "4.0.13"
+   "version" : "4.0.13",
+   "x_contributors" : [
+      "Thomas Sibley <trs@bestpractical.com>"
+   ]
 }
 
