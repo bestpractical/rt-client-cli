@@ -2,5 +2,8 @@ Revision history for RT-Client-CLI
 
 {{$NEXT}}
 
+4.0.13.1  2013-06-21 17:18:58 PDT
+        - Switch installer to ExtUtils::MakeMaker for less deps
+
 4.0.13  2013-05-29 11:26:22 PDT
         - Initial release

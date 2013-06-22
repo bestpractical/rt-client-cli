@@ -80,7 +80,7 @@
          "web" : "https://github.com/bestpractical/rt-client-cli"
       }
    },
-   "version" : "4.0.13",
+   "version" : "4.0.13.1",
    "x_contributors" : [
       "Thomas Sibley <trs@bestpractical.com>"
    ]
