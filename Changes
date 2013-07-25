@@ -2,6 +2,10 @@ Revision history for RT-Client-CLI
 
 {{$NEXT}}
 
+4.0.14  2013-07-25 09:53:19 PDT
+        - Allow creation of text/html correspondence/comments via -ct
+        - Support for attaching files on create
+
 4.0.13.1  2013-06-21 17:18:58 PDT
         - Switch installer to ExtUtils::MakeMaker for less deps
 
