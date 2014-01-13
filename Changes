@@ -2,6 +2,10 @@ Revision history for RT-Client-CLI
 
 {{$NEXT}}
 
+4.2.2  2014-01-13 18:40:13 EST
+        - Display original text in editor after errors
+        - Support searching for queues, users, and groups, on RT >= 4.2.2
+
 4.0.14  2013-07-25 09:53:19 PDT
         - Allow creation of text/html correspondence/comments via -ct
         - Support for attaching files on create

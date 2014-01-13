@@ -1,12 +1,12 @@
 {
    "abstract" : "Provides the official rt command line client",
    "author" : [
-      "Thomas Sibley <trs@bestpractical.com>"
+      "Best Practical Solutions, LLC"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Milla version v1.0.1, Dist::Zilla version 4.300032, CPAN::Meta::Converter version 2.130880",
+   "generated_by" : "Dist::Milla version v1.0.4, Dist::Zilla version 5.011, CPAN::Meta::Converter version 2.132661",
    "license" : [
-      "perl_5"
+      "gpl_2"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -80,7 +80,7 @@
          "web" : "https://github.com/bestpractical/rt-client-cli"
       }
    },
-   "version" : "4.0.14",
+   "version" : "4.2.2",
    "x_contributors" : [
       "Thomas Sibley <trs@bestpractical.com>"
    ]

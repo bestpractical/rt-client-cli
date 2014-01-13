@@ -17,18 +17,14 @@ install package when you want the [rt](http://search.cpan.org/perldoc?rt) progra
 The version of this package is kept in lockstep with the corresponding RT
 version from which the included [rt](http://search.cpan.org/perldoc?rt) was extracted.
 
-# AUTHOR
-
-Thomas Sibley <trs@bestpractical.com>
-
 # COPYRIGHT
 
-Copyright 2013- Best Practical Solutions, LLC
+Copyright 2014 Best Practical Solutions, LLC
 
 # LICENSE
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+This library is free software; you can redistribute it and/or modify it
+under the GNU General Public License, version 2.
 
 # SEE ALSO
 
