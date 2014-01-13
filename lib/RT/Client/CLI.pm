@@ -29,18 +29,14 @@ install package when you want the L<rt> program on another computer.
 The version of this package is kept in lockstep with the corresponding RT
 version from which the included L<rt> was extracted.
 
-=head1 AUTHOR
-
-Thomas Sibley E<lt>trs@bestpractical.comE<gt>
-
 =head1 COPYRIGHT
 
-Copyright 2013- Best Practical Solutions, LLC
+Copyright 2014 Best Practical Solutions, LLC
 
 =head1 LICENSE
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+This library is free software; you can redistribute it and/or modify it
+under the GNU General Public License, version 2.
 
 =head1 SEE ALSO
 
