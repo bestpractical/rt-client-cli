@@ -1,6 +1,6 @@
 #!/bin/bash
 VERSION=${1:-stable}
-SOURCE="https://raw.github.com/bestpractical/rt/$VERSION/bin/rt.in"
+SOURCE="https://raw.githubusercontent.com/bestpractical/rt/$VERSION/bin/rt.in"
 
 echo "Importing from $VERSION"
 echo "Downloading..."
