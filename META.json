@@ -4,7 +4,7 @@
       "Best Practical Solutions, LLC"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Milla version v1.0.4, Dist::Zilla version 5.011, CPAN::Meta::Converter version 2.132661",
+   "generated_by" : "Dist::Milla version v1.0.8, Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.140640",
    "license" : [
       "gpl_2"
    ],
@@ -43,6 +43,7 @@
       },
       "develop" : {
          "requires" : {
+            "Dist::Milla" : "v1.0.8",
             "Test::Pod" : "1.41"
          }
       },
@@ -80,7 +81,7 @@
          "web" : "https://github.com/bestpractical/rt-client-cli"
       }
    },
-   "version" : "4.2.2",
+   "version" : "4.2.7",
    "x_contributors" : [
       "Thomas Sibley <trs@bestpractical.com>"
    ]

@@ -4,18 +4,18 @@ RT::Client::CLI - Provides the official rt command line client
 
 # SYNOPSIS
 
-See [rt](http://search.cpan.org/perldoc?rt).
+See [rt](https://metacpan.org/pod/rt).
 
 # DESCRIPTION
 
-RT::Client::CLI is a CPAN-ready package for the [rt](http://search.cpan.org/perldoc?rt) command-line program
+RT::Client::CLI is a CPAN-ready package for the [rt](https://metacpan.org/pod/rt) command-line program
 that interacts with [RT](https://bestpractical.com/rt).
 
 No code is changed from the program shipped with RT.  This is just an easy-to-
-install package when you want the [rt](http://search.cpan.org/perldoc?rt) program on another computer.
+install package when you want the [rt](https://metacpan.org/pod/rt) program on another computer.
 
 The version of this package is kept in lockstep with the corresponding RT
-version from which the included [rt](http://search.cpan.org/perldoc?rt) was extracted.
+version from which the included [rt](https://metacpan.org/pod/rt) was extracted.
 
 # COPYRIGHT
 
