@@ -4,19 +4,24 @@
       "Best Practical Solutions, LLC"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Milla version v1.0.8, Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.140640",
+   "generated_by" : "Dist::Zilla version 5.036, Dist::Milla version v1.0.15, CPAN::Meta::Converter version 2.150001",
    "license" : [
       "gpl_2"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
-      "version" : "2"
+      "version" : 2
    },
-   "name" : "RT-Client-CLI",
+   "name" : "rt-client-cli",
    "no_index" : {
       "directory" : [
-         "devel",
-         "t"
+         "t",
+         "xt",
+         "inc",
+         "share",
+         "eg",
+         "examples",
+         "devel"
       ],
       "package" : [
          "Session"
@@ -38,12 +43,12 @@
    "prereqs" : {
       "configure" : {
          "requires" : {
-            "ExtUtils::MakeMaker" : "6.30"
+            "ExtUtils::MakeMaker" : "0"
          }
       },
       "develop" : {
          "requires" : {
-            "Dist::Milla" : "v1.0.8",
+            "Dist::Milla" : "v1.0.15",
             "Test::Pod" : "1.41"
          }
       },
@@ -71,19 +76,21 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "mailto" : "bug-RT-Client-CLI@rt.cpan.org",
-         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=RT-Client-CLI"
+         "mailto" : "bug-rt-client-cli@rt.cpan.org",
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=rt-client-cli"
       },
-      "homepage" : "https://metacpan.org/module/RT-Client-CLI",
+      "homepage" : "https://metacpan.org/module/rt-client-cli",
       "repository" : {
          "type" : "git",
          "url" : "git://github.com/bestpractical/rt-client-cli.git",
          "web" : "https://github.com/bestpractical/rt-client-cli"
       }
    },
-   "version" : "4.2.7",
+   "version" : "4.2.11",
    "x_contributors" : [
-      "Thomas Sibley <trs@bestpractical.com>"
+      "Alex Vandiver <alexmv@bestpractical.com>",
+      "Thomas Sibley <trs@bestpractical.com>",
+      "Todd Wade <todd@bestpractical.com>"
    ]
 }
 
