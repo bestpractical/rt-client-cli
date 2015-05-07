@@ -12,7 +12,7 @@
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
       "version" : 2
    },
-   "name" : "rt-client-cli",
+   "name" : "RT-Client-CLI",
    "no_index" : {
       "directory" : [
          "t",
@@ -76,10 +76,10 @@
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
-         "mailto" : "bug-rt-client-cli@rt.cpan.org",
-         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=rt-client-cli"
+         "mailto" : "bug-RT-Client-CLI@rt.cpan.org",
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=RT-Client-CLI"
       },
-      "homepage" : "https://metacpan.org/module/rt-client-cli",
+      "homepage" : "https://metacpan.org/module/RT-Client-CLI",
       "repository" : {
          "type" : "git",
          "url" : "git://github.com/bestpractical/rt-client-cli.git",

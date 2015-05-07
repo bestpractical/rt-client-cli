@@ -3,7 +3,7 @@ package RT::Client::CLI;
 use strict;
 use warnings;
 use 5.008_005;
-our $VERSION = '4.2.7';
+our $VERSION = '4.2.11';
 
 1;
 __END__

@@ -12,13 +12,13 @@ my %WriteMakefileArgs = (
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0
   },
-  "DISTNAME" => "rt-client-cli",
+  "DISTNAME" => "RT-Client-CLI",
   "EXE_FILES" => [
     "script/rt"
   ],
   "LICENSE" => "gpl",
   "MIN_PERL_VERSION" => "5.008005",
-  "NAME" => "rt::client::cli",
+  "NAME" => "RT::Client::CLI",
   "PREREQ_PM" => {
     "Cwd" => 0,
     "File::Temp" => 0,
