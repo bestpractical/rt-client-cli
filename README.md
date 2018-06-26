@@ -19,7 +19,7 @@ version from which the included [rt](https://metacpan.org/pod/rt) was extracted.
 
 # COPYRIGHT
 
-Copyright 2014 Best Practical Solutions, LLC
+Copyright 2014-2018 by Best Practical Solutions, LLC
 
 # LICENSE
 
