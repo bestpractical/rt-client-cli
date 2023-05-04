@@ -32,7 +32,7 @@ version from which the included commands were extracted.
 
 =head1 COPYRIGHT
 
-Copyright 2014-2022 by Best Practical Solutions, LLC
+Copyright 2023 by Best Practical Solutions, LLC
 
 =head1 LICENSE
 
